@@ -15,3 +15,5 @@ You need the following items in place:
  2. client.rb (all of your client settings including disabling a ohai pligin that has been know to cause issues, Note that serial number works well for node name as that is unique and shouldnt have duplicates in your org)
  3. machine_role.json (specifys your machine role)
  4. validator.pem (your validator key used in the intial run when setting up the node, this is what your server will use to exchange you a client.pem)
+
+The munki script included is basic script to setup the files correctly. You will likely need to add your organization or other specific items to the variables in the top. 
