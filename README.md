@@ -5,8 +5,8 @@ Note: This assumes you already have a chef server setup
 
 You need the following items in place:
 
-1. Chef-Clent installed on the machine
-2. Xcode Command Line Tools installed on the machine 
+1. Chef-Clent installed on the machine https://downloads.chef.io/chef-client/mac/
+2. Xcode Command Line Tools installed on the machine (Available at the apple developer download site)
 3. Validation key file
 4. a directory called /etc/chef
 	a. Also another directory called /etc/chef/trusted_certs (only if you have to include certs to trust your chef server)
